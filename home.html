@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Betak Resturant</title>
+
+</head>
+<body>
+    <header>
+        <p class="name">Betak <i class="fas fa-utensils"></i></p>
+        <nav class="navigation_bar">
+            <a href="#main">Home <i class="fa fa-home"></i>   </a>
+            <a href="#about">About </a>
+            <a href="#menu">Menu <i class="fas fa-bars"></i>  </a>
+            <a href="#Rate">Rate Us  </a>
+        </nav>
+    </header>
+
+    <section class="main" id="main">
+        <div class="slogan">
+            <i> Tasty food with perfect mood &#128523;</i><br><br>
+            <i> Opening hours</i><br>
+            <i> Every day from 10:00 AM to 10:00 PM </i>
+        </div>
+    </section> 
+     
+    <section class="about" id="about">
+    <div class="" >
+        <div class="aboutcontent">
+            <i class="atitle">About Betak</i><img src="47032bcb-8b25-4413-80ff-833ecf01234c.jpg" class="image" width="500" height="400"><br>
+            <br>
+            <p class="aboutcontent"> Betak is a home-like restaurant where you can have traditional Egyptian meals,
+                <br>You don not have to wait for your meal to be cooked anymore.<Br>
+                in Betak there are various types of food that are already cooked All you have to do is to walk through a line<br>
+                where all
+                kinds of Egyptian meals are in front of you <br> pick whatever you want then pay for what you picked.<br>
+                Once you have prepared your meal you can choose a comfortable place for yourself to eat then leave whenever you
+                want.
+                <br><br>The meals in Betak are the same cost as homemade food and there are no service fees as you serve yourself.
+                <br><br>Betak is a perfect place for people who don not get to experience Egyptian homemade food as tourists,<br>
+                Egyptian students
+                who are away from home,etc.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="resmenu" id="menu">
+    <div class="" >
+        <div class="box">
+            <i class="mtitle" >Our Menu</i>
+            <div class="menucontent">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'breakf');" id="myLink">
+                    <div class="tablink">Break Fast</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'dinner');">
+                    <div class="tablink">Dinner</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'lunch');">
+                    <div class="tablink">Lunch</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Dessert');">
+                    <div class="tablink">Desserts</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Drinkes');">
+                    <div class="tablink">Drinkes</div>
+                </a>
+            </div>
+    
+            <div id="breakf" class="menu">
+                <p>Egyptian pies  (فطير بلدي) <span >30.00 EGP</span></p>
+                <p class="text">Served with old cheese or molasses</p>
+                <hr>
+    
+                <p>beans  (فول مدمس)<span >13.00 EGP</span></p>
+                <p class="text">Hot sauce customized </p>
+                <hr>
+    
+                <p>Cheese with tomatoes (جبنه بطماطم)<span >17.00 EGP</span></p>
+                <p class="text">cheese,tomatoes,bell paper,olive oil</p>
+                <hr>
+    
+                <p>Eggs (بيض)<span >10.00 EGP</span></p>
+                <p class="text">Customized Add backon 7.00 EGP for each</p>
+                <hr>
+
+                <p>French Fries (بطاطس مقلية)<span>20.50 EGP</span></p>
+                <p class="text">Served with ketchup</p>
+                <hr>
+
+                <p>Yoghurt (زبادي)<span >8.00 EGP</span></p>
+                <p class="text">Flavours "Mango,blueberry,Strawberry,Honey"</p>
+                <hr>
+            </div>
+    
+            <div id="dinner" class="menu">
+                <p>Green Soup (ملوخية)<span>25.00 EGP</span></p>
+                <p class="text">Served with bread</p>
+                <hr>
+    
+                <p>Rice (ارز)<span >14.50 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+    
+                <p>Spaghetti (اسباجتي)<span >15.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+    
+                <p>Roast beef (لحم مشوي)<span >70.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+
+                <p>Filled pigeon (حمام محشي)<span>60.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Hawawshi (حواوشي)<span>25.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Bechamel (بشاميل)<span>35.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+
+                <p>Fillo Pastry (جلاش)<span>35.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+
+                <p>vine leaves (ورق عنب)<span>30.00 EGP</span></p>
+                <p class="text">Served with yogurt salad</p>
+                <hr>
+
+            </div>
+    
+    
+            <div id="lunch" class="menu">
+                <p> <span ></span></p>
+                <p class="text"></p>
+                <hr>
+
+                <p> <span></span></p>
+                <p class="text"></p>
+                <hr>
+    
+                <p> <span></span></p>
+                <p class="text"></p>
+                <hr>
+    
+                <p> <span></span></p>
+                <p class="text"></p>
+            </div>
+
+            <div id="Dessert" class="menu">
+                <p>Ice cream (ايس كريم)<span>15.00 EGP</span></p>
+                <p class="text">All falvours available</p>
+                <hr>
+                
+                <p>Jelly (جيلي)<span>15.00 EGP</span></p>
+                <p class="text">Flavours "Mango,Strawberry"</p>
+                <hr>
+                
+                <p>Konafa (كنافة)<span>20.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Om ali (ام علي)<span>25.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+
+                <p>Chocolate cake (كيك شكولاتة)<span>25.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+            </div>
+
+            <div id="Drinkes" class="menu">
+                <p>Mango (مانجو)<span>25.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Pineapple (أناناس)<span>25.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Apple (تفاح)<span>20.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>tea (شاي)<span>15.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+                
+                <p>Cola (كولا)<span>15.00 EGP</span></p>
+                <p class="text"></p>
+                <hr>
+            </div>
+         </div>
+    </div>
+    </section>
+
+    <section class="rate" id="Rate">
+        <form id="form" action="">
+            <div class="info">
+                <i class="rtitle">Rate Us</i>
+                <br>
+                <p for="name"> Name </p>
+                <input class="cname" id="name" type="text" name="cname" placeholder="Firstname Lastname"
+                 maxlength="35" required="">
+                 <br><br><hr>
+        
+                <p>Gender </p>
+                <input id="fem" type="radio" name="gender" value="female" required="">
+                <label for="fem">Female </label><br>
+                <input id="ma" type="radio" name="gender" value="male">
+                <label for="ma">Male</label><br><br><hr>
+
+                <p for="date">Visit Date</p>
+                <input class="vdate" id="date" type="date" name="vdate" required>
+                <br><br><hr>
+        
+                <p>would you like to visit Us again ?</p>
+                <input id="yes" type="radio" name="visit" value="yes" required="">
+                <label for="yes">Yes </label><br>
+                <input id="no" type="radio" name="visit" value="no">
+                <label for="no">No</label><br><br><hr>
+        
+                <p for="com"> Any comments </p>
+                <textarea class="comment" id="com" type="text-area" name="comment"
+                 placeholder="Rate your visit and write any comments" ></textarea><br><br><hr>
+
+                <input class="send" type="submit" value="Send" name="send">
+                <input class="reset" type="reset" value="Reset" name="reset" >
+            </div> 
+        </form>
+    </section>
+    <script src="home.js">
+    </script>
+</body>
+</html>
